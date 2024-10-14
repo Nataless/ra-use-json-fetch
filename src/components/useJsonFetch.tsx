@@ -46,7 +46,7 @@ const useJsonFetch = (
 
     fetchData();
 
-  }, [url, opts]);
+  }, [url,opts]);
 
   return [data, loading, error];
 };
